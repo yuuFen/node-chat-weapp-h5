@@ -1,0 +1,54 @@
+@import "../../assets/scss/variables";
+
+.hot-list-component {
+  padding: 30px;
+  .title {
+    display: block;
+    font-weight: bolder;
+  }
+  .list {
+    .list-item {
+      .item-num {
+        display: inline-block;
+        width: 1.2em;
+        height: 1.2em;
+        line-height: 1.2em;
+        // font-size: $fs-sm;
+        text-align: center;
+        border-radius: 50%;
+        &.item-0 {
+          color: #fff;
+          background-color: rgb(231, 94, 69);
+        }
+        &.item-1 {
+          color: #fff;
+          background-color: rgb(116, 238, 191);
+        }
+        &.item-2 {
+          color: #fff;
+          background-color: rgb(129, 76, 216);
+        }
+        &.item-3 {
+          color: #fff;
+          background-color: rgb(78, 76, 75);
+        }
+      }
+      .item-tag {
+        &.item-0 {
+          font-size: 32px;
+          color: rgb(231, 94, 69);
+        }
+        &.item-1 {
+          font-size: 1em;
+          color: rgb(116, 238, 191);
+        }
+        &.item-2 {
+          color: rgb(129, 76, 216);
+        }
+        &.item-3 {
+          color: rgb(78, 76, 75);
+        }
+      }
+    }
+  }
+}
