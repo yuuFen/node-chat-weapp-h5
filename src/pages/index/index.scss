@@ -1,0 +1,39 @@
+@import "../../assets/scss/variables";
+
+.index-page {
+  .search-container {
+    position: absolute;
+    display: flex;
+
+    .avatar {
+      background: no-repeat center/100% url(https://jdc.jd.com/img/100);
+    }
+
+    .search-bar {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding: 6px 9px;
+      background-color: $color-bg;
+      overflow: hidden;
+      box-sizing: border-box;
+      border: 1px solid $color-border-base;
+
+      .search-icon {
+      }
+      .search-content {
+        margin-left: 12px;
+        color: $color-grey-2;
+        font-size: $fs-sm;
+        flex-shrink: 0;
+      }
+    }
+  }
+
+  .content-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
